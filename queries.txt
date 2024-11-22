@@ -1,0 +1,30 @@
+index=avs_gcp_http_lb | rename data.httpRequest.requestUrl AS requestUrl, data.httpRequest.requestMethod AS requestMethod, attributes.logging.googleapis.com/timestamp AS timestamp, data.httpRequest.latency AS latency
+| rex field=requestUrl mode=sed "s/PAGE\/\d+/PAGE\/XXX/g"|rex field=requestUrl mode=sed "s/MENU\/menu/MENU\/MENU/g"  |rex field=requestUrl "\d+/\w+/\w+/\w+/\w+/(?P<sss>\w+/\w+[\/A-Z]+)" 
+| eval event_api=requestMethod." ".sss|search event_api="*" 
+| bucket _time span=1d  
+| convert timeformat="%H:%M:%S" ctime(_time) AS timeF
+| chart eval(round(perc95(latency),4)) over event_api by timeF limit=0 | fillnull value=0.0
+
+index=avs_gcp_http_lb | rename data.httpRequest.requestUrl AS requestUrl, data.httpRequest.requestMethod AS requestMethod, attributes.logging.googleapis.com/timestamp AS timestamp
+| rex field=requestUrl mode=sed "s/PAGE\/\d+/PAGE\/XXX/g"|rex field=requestUrl mode=sed "s/MENU\/menu/MENU\/MENU/g"  |rex field=requestUrl "\d+/\w+/\w+/\w+/\w+/(?P<sss>\w+/\w+[\/A-Z]+)" 
+| eval event_api=requestMethod." ".sss|search event_api="*" 
+| eval tzSplit=split(timestamp,".") | eval LOG_TIME=mvindex(tzSplit,0,0)
+| bucket span=1d LOG_TIME | stats count by  LOG_TIME, event_api | stats avg(count) AS AVG_TPS max(count) As MAX_TPS by event_api
+| eval "AVG_TPS"=round(AVG_TPS,2)
+
+
+SELECT 
+count("num_requests") as Count, 
+count("num_requests")/((1727818200795 - 1727814600795)/1000) as "Throughput"
+FROM "locust_test" WHERE ("test_case" =~ /^Telus\.Optik\.Mix\.PT\.2024-10-01\.19:36\.250K-Main$/) AND time >= 1727814631889ms and time <= 1727818231889ms GROUP BY "name" order by time desc
+
+SELECT 
+last("p90") as "90%",
+last("p95") as "95%",
+last("p99") as "99%"
+FROM "locust_test_percentiles" WHERE ("test_case" =~ /^Telus\.Optik\.Mix\.PT\.2024-10-01\.19:36\.250K-Main$/) AND time >= 1727814723420ms and time <= 1727818323420ms GROUP BY "name" order by time desc
+
+SELECT 
+count("num_requests") as Count, 
+count("num_requests")/((1715804370036 - 1715796850000)/1000) as "Throughput"
+FROM "locust_test" WHERE ("test_case" = 'Telus.Optik.Mix.PT.2024-05-15.18:11.250Krecalibrated-Main') AND time >= 1715796850000ms and time <= 1715804370044ms GROUP BY "name" order by time desc

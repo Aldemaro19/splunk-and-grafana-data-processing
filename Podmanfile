@@ -1,0 +1,28 @@
+# Use Python 3.10.11 slim-bullseye as the base image
+FROM python:3.10.11-slim-bullseye
+
+# Set up a working directory
+WORKDIR /app
+
+# Install necessary packages (curl, for example)
+RUN apt-get update && apt-get install -y curl openssh-client && apt-get clean
+
+# Install the required Python libraries
+RUN pip install requests splunk-sdk grafana_api google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+
+# Copy the Python script to the container
+COPY retrieve_reports.py /app/retrieve_reports.py
+
+# Copy credentials JSON for GSuite (assuming the file is in the current directory)
+COPY credentials.json /app/credentials.json
+
+# Install Google Cloud CLI
+RUN curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-411.0.0-linux-x86_64.tar.gz && \
+    tar -xzf google-cloud-sdk-411.0.0-linux-x86_64.tar.gz && \
+    ./google-cloud-sdk/install.sh
+
+# Authenticate using Google Cloud (this part requires interaction for setting up)
+RUN gcloud init
+
+# Set the default command to run the Python script
+CMD ["python3", "/app/retrieve_reports.py"]

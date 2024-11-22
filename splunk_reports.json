@@ -1,0 +1,618 @@
+[
+    [
+        {
+            "event_api": "DELETE CONTENT/RECORDING/SERIES",
+            "00:00:00": "0.0279"
+        },
+        {
+            "event_api": "DELETE CONTENT/USERDATA/MOVIE/",
+            "00:00:00": "0.0198"
+        },
+        {
+            "event_api": "DELETE OTT/REMOVE/DEVICE",
+            "00:00:00": "0.1395"
+        },
+        {
+            "event_api": "DELETE USER/ACCOUNTS/SUBACCOUNT/LOGOUT",
+            "00:00:00": "0.0200"
+        },
+        {
+            "event_api": "GET CONFIG/PROPERTIES",
+            "00:00:00": "0.0220"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/MOVIE/",
+            "00:00:00": "0.0105"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SEASON/",
+            "00:00:00": "0.0330"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SPORTSEASON/",
+            "00:00:00": "0.0087"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SPORTSERIES/",
+            "00:00:00": "0.0106"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/TVSHOW/",
+            "00:00:00": "0.0106"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/LIVE/",
+            "00:00:00": "4.4384"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/MOVIE/",
+            "00:00:00": "0.0198"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/RECORDING/",
+            "00:00:00": "0.0173"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/SEASON/",
+            "00:00:00": "8.1151"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/SPORTSEASON/",
+            "00:00:00": "0.2498"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/TVSHOW/",
+            "00:00:00": "0.0199"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/VOD/",
+            "00:00:00": "3.8886"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/VOD/NOT",
+            "00:00:00": "1.1360"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/WATCH",
+            "00:00:00": "0.0197"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/LIVE/",
+            "00:00:00": "15.0151"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/PROGRAM/",
+            "00:00:00": "1.9210"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/RECORDING//",
+            "00:00:00": "0.0174"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/VOD/",
+            "00:00:00": "15.0157"
+        },
+        {
+            "event_api": "GET MEDIAROOM/RECORDING",
+            "00:00:00": "0.0194"
+        },
+        {
+            "event_api": "GET NETFLIX/PID",
+            "00:00:00": "0.0143"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/MOVIE/",
+            "00:00:00": "0.0106"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/SPORTSERIES/",
+            "00:00:00": "0.0105"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/TVSHOW/",
+            "00:00:00": "0.0105"
+        },
+        {
+            "event_api": "GET TRAY/EPG",
+            "00:00:00": "0.0107"
+        },
+        {
+            "event_api": "GET TRAY/EXTCOLLECTION/",
+            "00:00:00": "0.0167"
+        },
+        {
+            "event_api": "GET TRAY/LIVECHANNELS",
+            "00:00:00": "0.0244"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/RELATEDCONTENT",
+            "00:00:00": "0.0207"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/TRENDING",
+            "00:00:00": "0.0204"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/USERTASTE",
+            "00:00:00": "0.0206"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH",
+            "00:00:00": "0.0149"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/PROGRAM",
+            "00:00:00": "0.0124"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/TEAMS",
+            "00:00:00": "0.0108"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/VOD",
+            "00:00:00": "0.0102"
+        },
+        {
+            "event_api": "GET TRAY/USER/BOOKMARKS",
+            "00:00:00": "0.0205"
+        },
+        {
+            "event_api": "GET TRAY/USER/FAVORITES",
+            "00:00:00": "0.0201"
+        },
+        {
+            "event_api": "GET TRAY/USER/PURCHASES",
+            "00:00:00": "0.0207"
+        },
+        {
+            "event_api": "GET TRAY/USER/RECORDING/EVENT",
+            "00:00:00": "0.0199"
+        },
+        {
+            "event_api": "GET TRAY/USER/RECORDING/SERIES",
+            "00:00:00": "0.0201"
+        },
+        {
+            "event_api": "GET USER/ACCOUNTS",
+            "00:00:00": "0.0164"
+        },
+        {
+            "event_api": "GET USER/AVATARS",
+            "00:00:00": "0.1560"
+        },
+        {
+            "event_api": "GET USER/PROFILE",
+            "00:00:00": "15.0188"
+        },
+        {
+            "event_api": "GET USER/PROFILE/RECORDING",
+            "00:00:00": "0.1319"
+        },
+        {
+            "event_api": "GET USER/RECORDINGS",
+            "00:00:00": "0.0220"
+        },
+        {
+            "event_api": "POST CONTENT/RECORDING/EVENT",
+            "00:00:00": "0.0202"
+        },
+        {
+            "event_api": "POST CONTENT/RECORDING/SERIES",
+            "00:00:00": "0.0202"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/LIVE/",
+            "00:00:00": "0.0204"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/MOVIE/",
+            "00:00:00": "0.0199"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/PROGRAM/",
+            "00:00:00": "0.0201"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/RECORDING/",
+            "00:00:00": "0.0198"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/VOD/",
+            "00:00:00": "0.0207"
+        },
+        {
+            "event_api": "POST MEDIAROOM/RECORDING",
+            "00:00:00": "0.0199"
+        },
+        {
+            "event_api": "POST NETFLIX/PADI",
+            "00:00:00": "0.0548"
+        },
+        {
+            "event_api": "POST OTT/LINK/DEVICE/",
+            "00:00:00": "0.1960"
+        },
+        {
+            "event_api": "POST USER/ACCOUNTS/SUBACCOUNT/LOGIN",
+            "00:00:00": "0.0199"
+        },
+        {
+            "event_api": "POST USER/DEVICE/MESSAGESERVICEREGISTRATION",
+            "00:00:00": "0.0250"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS",
+            "00:00:00": "1.5282"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/LIVE/",
+            "00:00:00": "1.1669"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/PROGRAM/",
+            "00:00:00": "1.2149"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/RECORDING//",
+            "00:00:00": "0.0184"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/VOD/",
+            "00:00:00": "1.1814"
+        },
+        {
+            "event_api": "POST USER/PURCHASES",
+            "00:00:00": "0.0220"
+        },
+        {
+            "event_api": "POST USER/SESSIONS",
+            "00:00:00": "5.6841"
+        },
+        {
+            "event_api": "PUT CONTENT/RECORDING/SERIES",
+            "00:00:00": "0.0281"
+        }
+    ],
+    [
+        {
+            "event_api": "DELETE CONTENT/RECORDING/SERIES",
+            "AVG_TPS": "5.29",
+            "MAX_TPS": "24"
+        },
+        {
+            "event_api": "DELETE CONTENT/USERDATA/MOVIE/",
+            "AVG_TPS": "2.46",
+            "MAX_TPS": "9"
+        },
+        {
+            "event_api": "DELETE OTT/REMOVE/DEVICE",
+            "AVG_TPS": "3.88",
+            "MAX_TPS": "13"
+        },
+        {
+            "event_api": "DELETE USER/ACCOUNTS/SUBACCOUNT/LOGOUT",
+            "AVG_TPS": "7.01",
+            "MAX_TPS": "21"
+        },
+        {
+            "event_api": "GET CONFIG/PROPERTIES",
+            "AVG_TPS": "546.41",
+            "MAX_TPS": "1194"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/MOVIE/",
+            "AVG_TPS": "31.44",
+            "MAX_TPS": "73"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SEASON/",
+            "AVG_TPS": "1.10",
+            "MAX_TPS": "2"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SPORTSEASON/",
+            "AVG_TPS": "9.89",
+            "MAX_TPS": "23"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/SPORTSERIES/",
+            "AVG_TPS": "13.46",
+            "MAX_TPS": "32"
+        },
+        {
+            "event_api": "GET CONTENT/DETAIL/TVSHOW/",
+            "AVG_TPS": "14.25",
+            "MAX_TPS": "37"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/LIVE/",
+            "AVG_TPS": "43.06",
+            "MAX_TPS": "97"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/MOVIE/",
+            "AVG_TPS": "35.99",
+            "MAX_TPS": "82"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/RECORDING/",
+            "AVG_TPS": "13.55",
+            "MAX_TPS": "35"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/SEASON/",
+            "AVG_TPS": "55.40",
+            "MAX_TPS": "110"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/SPORTSEASON/",
+            "AVG_TPS": "51.17",
+            "MAX_TPS": "122"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/TVSHOW/",
+            "AVG_TPS": "15.33",
+            "MAX_TPS": "35"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/VOD/",
+            "AVG_TPS": "36.37",
+            "MAX_TPS": "82"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/VOD/NOT",
+            "AVG_TPS": "1.00",
+            "MAX_TPS": "1"
+        },
+        {
+            "event_api": "GET CONTENT/USERDATA/WATCH",
+            "AVG_TPS": "64.71",
+            "MAX_TPS": "133"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/LIVE/",
+            "AVG_TPS": "132.97",
+            "MAX_TPS": "267"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/PROGRAM/",
+            "AVG_TPS": "15.66",
+            "MAX_TPS": "40"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/RECORDING//",
+            "AVG_TPS": "13.40",
+            "MAX_TPS": "37"
+        },
+        {
+            "event_api": "GET CONTENT/VIDEOURL/VOD/",
+            "AVG_TPS": "24.71",
+            "MAX_TPS": "55"
+        },
+        {
+            "event_api": "GET MEDIAROOM/RECORDING",
+            "AVG_TPS": "2.98",
+            "MAX_TPS": "20"
+        },
+        {
+            "event_api": "GET NETFLIX/PID",
+            "AVG_TPS": "21.30",
+            "MAX_TPS": "46"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/MOVIE/",
+            "AVG_TPS": "13.52",
+            "MAX_TPS": "36"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/SPORTSERIES/",
+            "AVG_TPS": "9.72",
+            "MAX_TPS": "26"
+        },
+        {
+            "event_api": "GET PAGE/DETAILS/TVSHOW/",
+            "AVG_TPS": "9.70",
+            "MAX_TPS": "33"
+        },
+        {
+            "event_api": "GET TRAY/EPG",
+            "AVG_TPS": "84.16",
+            "MAX_TPS": "189"
+        },
+        {
+            "event_api": "GET TRAY/EXTCOLLECTION/",
+            "AVG_TPS": "98.97",
+            "MAX_TPS": "228"
+        },
+        {
+            "event_api": "GET TRAY/LIVECHANNELS",
+            "AVG_TPS": "55.63",
+            "MAX_TPS": "134"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/RELATEDCONTENT",
+            "AVG_TPS": "16.93",
+            "MAX_TPS": "41"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/TRENDING",
+            "AVG_TPS": "31.44",
+            "MAX_TPS": "77"
+        },
+        {
+            "event_api": "GET TRAY/RECOMMENDATION/USERTASTE",
+            "AVG_TPS": "31.50",
+            "MAX_TPS": "75"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH",
+            "AVG_TPS": "29.72",
+            "MAX_TPS": "64"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/PROGRAM",
+            "AVG_TPS": "214.75",
+            "MAX_TPS": "459"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/TEAMS",
+            "AVG_TPS": "13.63",
+            "MAX_TPS": "39"
+        },
+        {
+            "event_api": "GET TRAY/SEARCH/VOD",
+            "AVG_TPS": "215.65",
+            "MAX_TPS": "468"
+        },
+        {
+            "event_api": "GET TRAY/USER/BOOKMARKS",
+            "AVG_TPS": "43.89",
+            "MAX_TPS": "104"
+        },
+        {
+            "event_api": "GET TRAY/USER/FAVORITES",
+            "AVG_TPS": "84.20",
+            "MAX_TPS": "182"
+        },
+        {
+            "event_api": "GET TRAY/USER/PURCHASES",
+            "AVG_TPS": "38.09",
+            "MAX_TPS": "94"
+        },
+        {
+            "event_api": "GET TRAY/USER/RECORDING/EVENT",
+            "AVG_TPS": "122.09",
+            "MAX_TPS": "256"
+        },
+        {
+            "event_api": "GET TRAY/USER/RECORDING/SERIES",
+            "AVG_TPS": "17.11",
+            "MAX_TPS": "42"
+        },
+        {
+            "event_api": "GET USER/ACCOUNTS",
+            "AVG_TPS": "1.00",
+            "MAX_TPS": "1"
+        },
+        {
+            "event_api": "GET USER/AVATARS",
+            "AVG_TPS": "2.34",
+            "MAX_TPS": "8"
+        },
+        {
+            "event_api": "GET USER/PROFILE",
+            "AVG_TPS": "56.43",
+            "MAX_TPS": "163"
+        },
+        {
+            "event_api": "GET USER/PROFILE/RECORDING",
+            "AVG_TPS": "44.04",
+            "MAX_TPS": "112"
+        },
+        {
+            "event_api": "GET USER/RECORDINGS",
+            "AVG_TPS": "101.46",
+            "MAX_TPS": "235"
+        },
+        {
+            "event_api": "POST CONTENT/RECORDING/EVENT",
+            "AVG_TPS": "9.00",
+            "MAX_TPS": "35"
+        },
+        {
+            "event_api": "POST CONTENT/RECORDING/SERIES",
+            "AVG_TPS": "5.32",
+            "MAX_TPS": "19"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/LIVE/",
+            "AVG_TPS": "122.52",
+            "MAX_TPS": "318"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/MOVIE/",
+            "AVG_TPS": "2.45",
+            "MAX_TPS": "9"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/PROGRAM/",
+            "AVG_TPS": "15.37",
+            "MAX_TPS": "39"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/RECORDING/",
+            "AVG_TPS": "13.48",
+            "MAX_TPS": "34"
+        },
+        {
+            "event_api": "POST CONTENT/USERDATA/VOD/",
+            "AVG_TPS": "24.84",
+            "MAX_TPS": "72"
+        },
+        {
+            "event_api": "POST MEDIAROOM/RECORDING",
+            "AVG_TPS": "1.08",
+            "MAX_TPS": "2"
+        },
+        {
+            "event_api": "POST NETFLIX/PADI",
+            "AVG_TPS": "21.37",
+            "MAX_TPS": "48"
+        },
+        {
+            "event_api": "POST OTT/LINK/DEVICE/",
+            "AVG_TPS": "3.85",
+            "MAX_TPS": "12"
+        },
+        {
+            "event_api": "POST USER/ACCOUNTS/SUBACCOUNT/LOGIN",
+            "AVG_TPS": "6.94",
+            "MAX_TPS": "18"
+        },
+        {
+            "event_api": "POST USER/DEVICE/MESSAGESERVICEREGISTRATION",
+            "AVG_TPS": "241.72",
+            "MAX_TPS": "532"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS",
+            "AVG_TPS": "132.43",
+            "MAX_TPS": "338"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/LIVE/",
+            "AVG_TPS": "88.82",
+            "MAX_TPS": "200"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/PROGRAM/",
+            "AVG_TPS": "94.87",
+            "MAX_TPS": "232"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/RECORDING//",
+            "AVG_TPS": "17.85",
+            "MAX_TPS": "42"
+        },
+        {
+            "event_api": "POST USER/DEVICESESSIONS/VOD/",
+            "AVG_TPS": "12.59",
+            "MAX_TPS": "33"
+        },
+        {
+            "event_api": "POST USER/PURCHASES",
+            "AVG_TPS": "1.00",
+            "MAX_TPS": "1"
+        },
+        {
+            "event_api": "POST USER/SESSIONS",
+            "AVG_TPS": "1.00",
+            "MAX_TPS": "1"
+        },
+        {
+            "event_api": "PUT CONTENT/RECORDING/SERIES",
+            "AVG_TPS": "5.31",
+            "MAX_TPS": "20"
+        }
+    ]
+]

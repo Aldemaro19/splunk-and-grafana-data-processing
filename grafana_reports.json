@@ -1,0 +1,2946 @@
+[
+    {
+        "results": [
+            {
+                "statement_id": 0,
+                "series": [
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG09_T01_POST_USER/DEVICESESSIONS/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                851204,
+                                236.44555555555556
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG090_T02_DELETE_OTT/REMOVE/DEVICE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                39564,
+                                10.99
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG090_T01_POST_OTT/LINK/DEVICE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                39580,
+                                10.994444444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG089_T01_GET_CONTENT_DETAIL_SPORTSEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                104965,
+                                29.156944444444445
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG088_T03_DELETE_CONTENT_USERDATA_MOVIE_FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                22255,
+                                6.1819444444444445
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG088_T02_POST_CONTENT_USERDATA_MOVIE_FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                22267,
+                                6.185277777777777
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG088_T01_GET_TRAY_SEARCH_VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                22272,
+                                6.1866666666666665
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG087_T01_GET_TRAY_SEARCH_PROGRAM_LIVE_EVENTS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                316686,
+                                87.96833333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG086_T01_GET_CONTENT/USERDATA/SPORTSEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                547064,
+                                151.9622222222222
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG085_GET_TRAY_SEARCH_TEAMS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                139442,
+                                38.73388888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG084_GET_CONTENT_DETAIL_SPORTSERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                143890,
+                                39.96944444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG083_GET_PAGE_DETAILS_SPORTSERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                103459,
+                                28.738611111111112
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG06_T01_GET_TRAY/USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                406865,
+                                113.01805555555555
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG069_T02_POST_USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                3900,
+                                1.0833333333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG069_T01_AMS_DELETE_USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                3900,
+                                1.0833333333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG068_T01_POST_MESSAGE_SERVICE_REGISTRATION"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                2565015,
+                                712.5041666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG067_GET_TRENDING_NOW"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                335913,
+                                93.30916666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG066_T01_GET_NETFLIX_PID"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                227879,
+                                63.29972222222222
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG065_T04_GZ_GET_TRAY/EXTCOLLECTION_4"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                83978,
+                                23.327222222222222
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG065_T03_GZ_GET_TRAY/EXTCOLLECTION_3"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                83980,
+                                23.32777777777778
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG065_T02_GZ_GET_TRAY/EXTCOLLECTION_2"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                83973,
+                                23.325833333333332
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG065_T01_GZ_GET_TRAY/EXTCOLLECTION_1"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                83977,
+                                23.326944444444443
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T06_SZ_GET_TRAY/SEARCH/PROGRAM_6"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125495,
+                                34.859722222222224
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T05_SZ_GET_TRAY/SEARCH/PROGRAM_5"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125087,
+                                34.74638888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T04_SZ_GET_TRAY/SEARCH/PROGRAM_4"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125448,
+                                34.846666666666664
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T03_SZ_GET_TRAY/SEARCH/PROGRAM_3"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125484,
+                                34.85666666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T02_SZ_GET_TRAY/SEARCH/PROGRAM_2"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125609,
+                                34.89138888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG064_T01_SZ_GET_TRAY/SEARCH/PROGRAM_1"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                125859,
+                                34.96083333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG063_T01_POST_NETFLIX_PADI"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                227876,
+                                63.29888888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG063_PUT_CONTENT_USERDATA_BOOKMARKS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                312442,
+                                86.78944444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T06_GET_TRAY/SEARCH/VOD_SERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377215,
+                                104.78194444444445
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T05_GET_TRAY/SEARCH/VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377188,
+                                104.77444444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T04_GET_TRAY/SEARCH/VOD_NETWORK"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377241,
+                                104.78916666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T03_GET_TRAY/SEARCH/VOD_SERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377191,
+                                104.77527777777777
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T02_GET_TRAY/SEARCH/VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377194,
+                                104.7761111111111
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG05_T01_GET_TRAY/SEARCH/VOD_CATEGORY"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                377187,
+                                104.77416666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG04_T03_GET_PAGE/1798"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                374104,
+                                103.91777777777777
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG04_T02_GET_PAGE/1765"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                374088,
+                                103.91333333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG04_T01_GET_PAGE/1690"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                374114,
+                                103.92055555555555
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG047_T02_PUT_USER/PROFILE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                21304,
+                                5.917777777777777
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG047_T01_PUT_USER/PROFILE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                21310,
+                                5.919444444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG044_T01_GET_USER/AVATARS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                20992,
+                                5.831111111111111
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG042_T01_GET_TRAY/RECOMMENDATION/USERTASTE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                337912,
+                                93.86444444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG041_T01_GET_TRAY/RECOMMENDATION/RELATEDCONTENT"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                179948,
+                                49.98555555555556
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG03_T01_GET_MENU/menu"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                243498,
+                                67.63833333333334
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG038_T03_POST_USER/DEVICESESSIONS/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                164774,
+                                45.77055555555555
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG038_T02_POST_CONTENT/USERDATA/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                164721,
+                                45.755833333333335
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG038_T01_GET_CONTENT/VIDEOURL/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                164824,
+                                45.784444444444446
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG035_T01_POST_USER/DEVICESESSIONS/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                144066,
+                                40.01833333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG034_T01_POST_USER/DEVICESESSIONS/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                1026572,
+                                285.1588888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG033_T01_POST_USER/DEVICESESSIONS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                335850,
+                                93.29166666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG032_T02_POST_CONTENT/USERDATA/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                218842,
+                                60.78944444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG032_T01_GET_CONTENT/VIDEOURL/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                218915,
+                                60.80972222222222
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG030_T01_GET_TRAY/USER/FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                899009,
+                                249.72472222222223
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG029_T01_GET_TRAY/USER/BOOKMARKS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                467820,
+                                129.95
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG028_T01_GET_TRAY/SEARCH/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                1007539,
+                                279.87194444444447
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG027_T01_GET_TRAY/SEARCH"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                311874,
+                                86.63166666666666
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG026_GET_TRAY/LIVECHANNELS"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                432810,
+                                120.225
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG025_T01_GET_TRAY/EXTCOLLECTION"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                719676,
+                                199.91
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG024_T01_GET_TRAY/EPG"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                895786,
+                                248.82944444444445
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG023_T01_GET_PAGE/DETAILS/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                102931,
+                                28.591944444444444
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG022_T01_GET_PAGE/DETAILS/MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                143915,
+                                39.97638888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG020_GET_CONTENT/USERDATA/MOVIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                383718,
+                                106.58833333333334
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG019B_T01_GET_CONTENT/VIDEOURL/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                690016,
+                                191.67111111111112
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG019B_GET_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                70422,
+                                19.561666666666667
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG019A_T02_POST_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                1419440,
+                                394.2888888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG019A_T01_GET_CONTENT/VIDEOURL/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                710024,
+                                197.2288888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG018_T01_GET_CONTENT/USERDATA/WATCH-NEXT"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                691455,
+                                192.07083333333333
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG017_T01_GET_CONTENT/USERDATA/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                382670,
+                                106.29722222222222
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG016_T01_GET_CONTENT/USERDATA/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                161953,
+                                44.98694444444445
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG015_T01_GET_CONTENT/USERDATA/SEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                593605,
+                                164.89027777777778
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG014_T01_GET_CONTENT/DETAIL/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                149888,
+                                41.635555555555555
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG012_T01_GET_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                359779,
+                                99.93861111111111
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG011_T01_GET_CONTENT/DETAIL/MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                335836,
+                                93.28777777777778
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "TG010_T01_GET_CONFIG/PROPERTIES"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                5805138,
+                                1612.5383333333334
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "POST_USER_DEVICESESSIONS_REFRESH"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                15566,
+                                4.323888888888889
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test",
+                        "tags": {
+                            "name": "POST_USER_DEVICESESSIONS_KEEP_ALIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "Count",
+                            "Throughput"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:30:31.889Z",
+                                769220,
+                                213.67222222222222
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "results": [
+            {
+                "statement_id": 0,
+                "series": [
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG09_T01_POST_USER/DEVICESESSIONS/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                122.70715100021334,
+                                129.26240200067696,
+                                161.43557900068117
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG090_T02_DELETE_OTT/REMOVE/DEVICE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                182.70730399945023,
+                                194.0469880009914,
+                                240.7559779994699
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG090_T01_POST_OTT/LINK/DEVICE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                239.24500700013596,
+                                253.85433700012072,
+                                298.8102549998075
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG089_T01_GET_CONTENT_DETAIL_SPORTSEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                207.583863999389,
+                                251.5948419986671,
+                                383.33661799970287
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG088_T03_DELETE_CONTENT_USERDATA_MOVIE_FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                128.62553899867635,
+                                132.92088500020327,
+                                154.00456200040935
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG088_T02_POST_CONTENT_USERDATA_MOVIE_FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                148.7862559988571,
+                                154.34636300051352,
+                                195.289992000653
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG088_T01_GET_TRAY_SEARCH_VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                235.1584730004106,
+                                259.463291999964,
+                                340.044546000172
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG087_T01_GET_TRAY_SEARCH_PROGRAM_LIVE_EVENTS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                97.24632800043764,
+                                100.90539100019669,
+                                121.65351499970711
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG086_T01_GET_CONTENT/USERDATA/SPORTSEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                346.8198569989909,
+                                367.764377999265,
+                                432.088510999165
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG085_GET_TRAY_SEARCH_TEAMS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.1457090002732,
+                                106.91612500068004,
+                                124.99739700069767
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG084_GET_CONTENT_DETAIL_SPORTSERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.73514999971667,
+                                106.20294700129307,
+                                124.2508799987263
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG083_GET_PAGE_DETAILS_SPORTSERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.67252399989957,
+                                105.81540999919525,
+                                122.01230000027863
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG06_T01_GET_TRAY/USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                149.53242099909403,
+                                175.56178199993155,
+                                318.2102089995169
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG069_T02_POST_USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                510.4073319998861,
+                                519.9148669998976,
+                                637.1793660000549
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG069_T01_AMS_DELETE_USER/PURCHASES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                353.9819340003305,
+                                360.42352999720606,
+                                385.8304170007614
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG068_T01_POST_MESSAGE_SERVICE_REGISTRATION"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                245.73416899966105,
+                                278.1330439993326,
+                                310.6598609992943
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG067_GET_TRENDING_NOW"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                359.31280000022525,
+                                462.80724800089956,
+                                700.446639000802
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG066_T01_GET_NETFLIX_PID"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.60283200043341,
+                                107.51357799927064,
+                                131.2153960006981
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG065_T04_GZ_GET_TRAY/EXTCOLLECTION_4"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.23630900023272,
+                                100.22999200009508,
+                                119.81607000052463
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG065_T03_GZ_GET_TRAY/EXTCOLLECTION_3"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.24633600014931,
+                                99.8447700003453,
+                                117.06356600006984
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG065_T02_GZ_GET_TRAY/EXTCOLLECTION_2"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.3947719992575,
+                                100.06105600041337,
+                                120.66250199950446
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG065_T01_GZ_GET_TRAY/EXTCOLLECTION_1"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.50777299975744,
+                                100.46694900029252,
+                                116.7709269993793
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T06_SZ_GET_TRAY/SEARCH/PROGRAM_6"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.99041100026807,
+                                107.78101300093113,
+                                126.97716100046819
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T05_SZ_GET_TRAY/SEARCH/PROGRAM_5"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.77178999988246,
+                                107.75132900016615,
+                                125.3034179990209
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T04_SZ_GET_TRAY/SEARCH/PROGRAM_4"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.77424500074994,
+                                107.11668799922336,
+                                126.72530999952869
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T03_SZ_GET_TRAY/SEARCH/PROGRAM_3"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.87405999972543,
+                                107.63092500019411,
+                                124.72045100003015
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T02_SZ_GET_TRAY/SEARCH/PROGRAM_2"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.65753000041877,
+                                106.90023600000131,
+                                126.39189299807185
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG064_T01_SZ_GET_TRAY/SEARCH/PROGRAM_1"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.41645199969207,
+                                107.23880900059157,
+                                126.58311699942715
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG063_T01_POST_NETFLIX_PADI"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                130.7580689990573,
+                                141.06953400005295,
+                                216.44549499978893
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG063_PUT_CONTENT_USERDATA_BOOKMARKS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                125.33182100014528,
+                                130.57492099869705,
+                                162.47349900004338
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T06_GET_TRAY/SEARCH/VOD_SERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                98.30858599980274,
+                                103.10037000090233,
+                                121.80259999877308
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T05_GET_TRAY/SEARCH/VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                99.3430360003913,
+                                105.89379700104473,
+                                145.91786700020748
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T04_GET_TRAY/SEARCH/VOD_NETWORK"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                97.96383200045966,
+                                103.10813100022642,
+                                145.4106450000836
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T03_GET_TRAY/SEARCH/VOD_SERIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                98.44884199992521,
+                                103.0203199989046,
+                                120.78816100074619
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T02_GET_TRAY/SEARCH/VOD_MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                99.35570999914489,
+                                104.54133400162391,
+                                126.30565099971136
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG05_T01_GET_TRAY/SEARCH/VOD_CATEGORY"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                99.82479999962379,
+                                107.53335400113428,
+                                179.6269550004581
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG04_T03_GET_PAGE/1798"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.54676200020185,
+                                106.18128200076171,
+                                123.35932300084096
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG04_T02_GET_PAGE/1765"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.60790599932079,
+                                106.38391300017247,
+                                123.77046500114375
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG04_T01_GET_PAGE/1690"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.57038800045848,
+                                106.25918000005186,
+                                124.45304100037902
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG047_T02_PUT_USER/PROFILE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                241.59543400128314,
+                                249.16665099954116,
+                                345.24972700000944
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG047_T01_PUT_USER/PROFILE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                242.84805100251106,
+                                256.6816979997384,
+                                371.24452399984875
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG044_T01_GET_USER/AVATARS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                243.2609740008047,
+                                252.250544999697,
+                                348.1418700012
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG042_T01_GET_TRAY/RECOMMENDATION/USERTASTE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                617.9981059995043,
+                                744.5850500007509,
+                                983.3136309998736
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG041_T01_GET_TRAY/RECOMMENDATION/RELATEDCONTENT"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                490.61058000006597,
+                                626.282106999497,
+                                864.0796279978531
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG03_T01_GET_MENU/menu"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.76809100105311,
+                                106.32152099969971,
+                                122.87315699995816
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG038_T03_POST_USER/DEVICESESSIONS/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                123.21439500010456,
+                                129.10079500034044,
+                                156.7757310003799
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG038_T02_POST_CONTENT/USERDATA/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                111.47216000063054,
+                                116.0670579993166,
+                                140.91877099963313
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG038_T01_GET_CONTENT/VIDEOURL/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                369.18417800006864,
+                                401.247918000081,
+                                475.1946139995198
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG035_T01_POST_USER/DEVICESESSIONS/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                123.50221999986388,
+                                130.05076200079202,
+                                159.52541799924802
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG034_T01_POST_USER/DEVICESESSIONS/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                206.67866800067713,
+                                224.6626460000698,
+                                281.3497129991447
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG033_T01_POST_USER/DEVICESESSIONS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                134.15693400020245,
+                                141.47380999929737,
+                                175.0863040015247
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG032_T02_POST_CONTENT/USERDATA/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                257.3788259996945,
+                                278.97299399774056,
+                                342.6360570010729
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG032_T01_GET_CONTENT/VIDEOURL/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                344.29875099976925,
+                                381.4349399999628,
+                                470.13954000067315
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG030_T01_GET_TRAY/USER/FAVORITES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                135.47487600044406,
+                                157.21915699941746,
+                                301.73033500068414
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG029_T01_GET_TRAY/USER/BOOKMARKS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                199.44016699992062,
+                                234.83849100011867,
+                                346.5553980004188
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG028_T01_GET_TRAY/SEARCH/PROGRAM"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.95664700029738,
+                                101.05598900008772,
+                                120.08706800043001
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG027_T01_GET_TRAY/SEARCH"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                105.3872370002864,
+                                314.5580059990607,
+                                417.4829299990961
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG026_GET_TRAY/LIVECHANNELS"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                103.83911700046156,
+                                107.63977500027977,
+                                125.86979600018822
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG025_T01_GET_TRAY/EXTCOLLECTION"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.5426020011364,
+                                100.37666599964723,
+                                118.14289600079064
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG024_T01_GET_TRAY/EPG"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                130.91910100047244,
+                                144.20079500087013,
+                                227.17574699890974
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG023_T01_GET_PAGE/DETAILS/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.9932289984572,
+                                106.41755500000727,
+                                126.50828499954514
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG022_T01_GET_PAGE/DETAILS/MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.86313500000688,
+                                106.54687200076296,
+                                123.04490599854034
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG020_GET_CONTENT/USERDATA/MOVIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                249.1264959999171,
+                                274.68246200078283,
+                                341.01917299994966
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG019B_T01_GET_CONTENT/VIDEOURL/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                335.9996350009169,
+                                361.71263399955933,
+                                434.84881599943037
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG019B_GET_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                314.34008999985963,
+                                332.36721899993427,
+                                400.7067160000588
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG019A_T02_POST_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                112.18557599931955,
+                                116.47407100008422,
+                                138.29439000073762
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG019A_T01_GET_CONTENT/VIDEOURL/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                360.3800949995275,
+                                392.29236600112927,
+                                471.5196930001184
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG018_T01_GET_CONTENT/USERDATA/WATCH-NEXT"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                305.7359179993,
+                                335.7351060003566,
+                                411.115670000072
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG017_T01_GET_CONTENT/USERDATA/VOD"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                411.82567000214476,
+                                442.68395499966573,
+                                530.9083060001285
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG016_T01_GET_CONTENT/USERDATA/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                313.8914789997216,
+                                337.0950830003494,
+                                397.07895900028234
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG015_T01_GET_CONTENT/USERDATA/SEASON"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                281.90312400147377,
+                                312.8125530001853,
+                                372.9978779992962
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG014_T01_GET_CONTENT/DETAIL/TVSHOW"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.70410499924765,
+                                106.3539260003381,
+                                124.59247199967649
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG012_T01_GET_CONTENT/USERDATA/LIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                325.0647400000162,
+                                356.7361319992415,
+                                444.4033589998071
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG011_T01_GET_CONTENT/DETAIL/MOVIE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                102.82478400040418,
+                                106.44208200028515,
+                                123.57419999898411
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "TG010_T01_GET_CONFIG/PROPERTIES"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                96.59447800004273,
+                                100.32873899945116,
+                                118.34138699941832
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "POST_USER_DEVICESESSIONS_REFRESH"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                122.52451199856296,
+                                127.81781300054718,
+                                147.4281669998163
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "locust_test_percentiles",
+                        "tags": {
+                            "name": "POST_USER_DEVICESESSIONS_KEEP_ALIVE"
+                        },
+                        "columns": [
+                            "time",
+                            "90%",
+                            "95%",
+                            "99%"
+                        ],
+                        "values": [
+                            [
+                                "2024-10-01T20:32:03.42Z",
+                                123.17426099980366,
+                                129.453255001863,
+                                159.30346599998302
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

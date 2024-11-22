@@ -1,0 +1,21 @@
+steps:
+ - name: gcr.io/cloud-builders/docker
+   id: Build
+   args:
+    - 'build'
+    - '-t'
+    - ${_PT_REPORTING_IMAGE}
+    - '.'
+ - name: 'gcr.io/cloud-builders/docker'
+   id: Push
+   args:
+    - 'push'
+    - ${_PT_REPORTING_IMAGE}
+
+substitutions:
+  _PT_REPORTING_IMAGE: northamerica-northeast1-docker.pkg.dev/cto-video-svc-registry-np-f69f/avs66-pt-docker-registry/pt-reporting:${TAG_NAME}
+  _GKE_NAMESPACE: avs68-locust-pt
+  _GKE_CLUSTER: cto-opus-gke-hammer
+  _GKE_REGION: northamerica-northeast1
+options:
+  dynamic_substitutions: true
